@@ -8,8 +8,8 @@ namespace BlockParser
 {
     struct Resolution
     {
-        private int width;
-        private int height;
+        private readonly int width;
+        private readonly int height;
 
         public Resolution(string data)
         {
